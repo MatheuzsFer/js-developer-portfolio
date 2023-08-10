@@ -1,14 +1,14 @@
 {
   "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "photo": "https://avatars.githubusercontent.com/u/101224312?v=4",
+  "job": "Front-end Developer",
+  "location": "Ceara - BR",
+  "phone": "(88) 99779-8510",
+  "email": "matheusilva886@gmail.com",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
+        "name": "javascript",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
@@ -43,18 +43,17 @@
   "languages": [
     "Português BR",
     "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Espanhol (intermediário)"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Aplicação Delivery",
+      "url": "https://github.com/ProjetoIntegrador2021-2/frontend",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Web Pokedex",
+      "url": "https://github.com/MatheuzsFer/js-developer-pokedex",
       "github": true
     }
   ],

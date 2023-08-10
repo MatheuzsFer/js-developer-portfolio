@@ -1,4 +1,4 @@
-.portfolio {
+.projetos {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -6,32 +6,36 @@
     margin: 0;
     padding: 0;
     list-style: none;
+
 }
 
-.portfolio li {
+.projetos li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin: 1rem 0;
 }
 
-.portfolio li h3 {
+.projetos li .title {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 700;
     margin: 0;
     margin-bottom: .5rem;
 }
 
-.portfolio li h3.github::before {
+.projetos li .title.github::before {
     content: "";
     display: inline-block;
     width: 1rem;
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../img/icons/github.svg');
+    background-image: url(/assets/img/icons/github.svg);
     margin-right: .5rem;
+
+ 
 }
+
