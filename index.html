@@ -1,120 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Renan J Paula</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Portifólio Matheuzsfer</title>
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/acordeon.css">
-    <link rel="stylesheet" href="assets/css/languages.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/projetos.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skill.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <main class="main">
+    <main class="content">
         <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
-
-            <h1 class="title">
-                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
-            </h1>
-
-            <div class="information">
-                <p class="job" id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
+            <img class="photo" src="/assets/img/myphoto.jpg" alt="Minha foto perfil">
+    
+    
+            <h1 class="title">Olá, me chamo Matheus</h1>
+    
+            <div class="information">         
+                <p class="job">Front-end Developer</p>
+                <p class="location">Ceara - BR</p>
                 <p class="phone">
-                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
+                    <a href="tel:(88) 9 9779-8510">(88) 9 9779-8510</a>
                 </p>
-                <p class="email">
-                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
+                <p class="mail">
+                    <a href="mailto:matheusilva886@gmail.com">Matheusilva886@gmail.com</a>
                 </p>
-            </div>
+            </div>   
+
         </header>
 
-        <section class="acordeon">
+        <section class="acordeon ">
             <button class="trigger" type="button">
                 <h2>Skills</h2>
             </button>
-
             <div class="content">
                 <div class="skills">
                     <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul id="profile.skills.hardSkills">
+                        <h3>
+                            Habilidades profissionais
+                        </h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/img/icons/lenguages/python.svg" alt="python" title="python">
+                                <img src="/assets/img/icons/lenguages/js.svg" alt="javascript" title="javascript">
+                                <img src="/assets/img/icons/lenguages/node.svg" alt="nodejs" title="nodejs">
+                                <img src="/assets/img/icons/lenguages/ts.svg" alt="typescript" title="typescript">
+                                <img src="/assets/img/icons/lenguages/react.svg" alt="react" title="react">
+                                <img src="/assets/img/icons/lenguages/vue.svg" alt="vue" title="vue">
+                                <img src="/assets/img/icons/lenguages/git.svg" alt="git" title="git">
+
+                            </li>
                         </ul>
                     </section>
-
                     <section class="personal">
-                        <h3>Pessoal:</h3>
-                        <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
+                        <h3>
+                            Pessoal
+                        </h3>
+                        <ul>
+                            <li>lorem</li>
+                            <li>lorem</li>
+                            <li>lorem</li>
+                            <li>lorem</li>
+                            <li>lorem</li>
                         </ul>
                     </section>
                 </div>
+
             </div>
         </section>
 
-        <section class="acordeon">
+        <section class="acordeon ">
             <button class="trigger" type="button">
-                <h2>Idiomas</h2>
+                    <h2>Idiomas</h2>
             </button>
-
             <div class="content">
-                <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
+                <ul class="languages">
+                    <li>Português (BR) </li>
+                    <li>Espanhol</li>
+                    <li>Ingles</li>
                 </ul>
             </div>
         </section>
 
-        <section class="acordeon">
+        <section class="acordeon ">
             <button class="trigger" type="button">
-                <h2>Portfólio</h2>
+                    <h2>Projetos</h2>
             </button>
-
             <div class="content">
-                <ul class="portfolio" id="profile.portfolio">
+                <ul class="projetos">
+                    <li>
+                        <h3 class="title github"> Aplicação Delivery</h3>
+                            <a href="https://github.com/ProjetoIntegrador2021-2/frontend" target="_blank" >Front-end Developer FlashFood</a>
+                    </li>
+                    <li>
+                        <h3 class="title github"> Web Pokedex </h3>
+                            <a href="https://github.com/MatheuzsFer/js-developer-pokedex" target="_blank" >Developer Web Pokedex </a>
+                    </li>
+                    
                 </ul>
             </div>
         </section>
 
-        <section class="acordeon">
+        <section class="acordeon ">
             <button class="trigger" type="button">
-                <h2>Experiência Profissional</h2>
+                <h2>Experiência profissional</h2>
             </button>
-
             <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title ">Front-end Developer / IFCE </h3>
+                        <p class="period">Ago 2021 - Mai 2022 </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Eaque sed id cum enim inventore accusamus cumque optio, 
+                            laborum autem dolor omnis tempora architecto, facilis delectus, 
+                            deserunt eveniet expedita doloremque illo.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="title ">Front-end Developer / IFCE </h3>
+                        <p class="period">Ago 2021 - Mai 2022 </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Eaque sed id cum enim inventore accusamus cumque optio, 
+                            laborum autem dolor omnis tempora architecto, facilis delectus, 
+                            deserunt eveniet expedita doloremque illo.
+                        </p>
+                    </li>
+
+                    
                 </ul>
             </div>
         </section>
 
-        <footer>
-            <a href="https://www.dio.me/" target="_blank">
-                <img src="assets/img/dio.svg" alt="DIO">
-            </a>
-        </footer>
     </main>
 
-    <script src="assets/js/acordeon.js"></script>
-    <script src="assets/js/api.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
 
+    <script src="/assets/js/acordeon.js"></script>
+
+</body>
 </html>

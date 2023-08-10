@@ -1,4 +1,3 @@
-
 const acordeonTriggers = document.querySelectorAll('.acordeon .trigger')
 
 acordeonTriggers.forEach((trigger) => {
@@ -11,5 +10,6 @@ acordeonTriggers.forEach((trigger) => {
         } else {
             acordeon.classList.add('open')
         }
+    
     })
 })
